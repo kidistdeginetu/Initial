@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+body {
+	margin: 0 auto;
+	background-image: url('/images/image.jpg');
+}
+
+#container {
+	width: 500px;
+	height: 250px;
+	text-align: center;
+	background-color: #34495E;
+	margin-top: 150px;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+
+.error {
+	color: red;
+}
+
+input.invalid, textarea.invalid {
+	border: 2px solid red;
+}
+
+input.valid, textarea.valid {
+	border: 2px solid green;
+}
+.label
+{
+align:center;
+}
